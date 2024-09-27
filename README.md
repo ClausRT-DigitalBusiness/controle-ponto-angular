@@ -1,4 +1,6 @@
-# ControlePontoAngular
+# Controle de Ponto
+
+Prova de Conceito de estruturação de projeto Angular.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
 
