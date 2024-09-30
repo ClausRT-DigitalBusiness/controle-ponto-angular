@@ -1,0 +1,18 @@
+@import "colors";
+
+.background-container {
+  background-color: $primary-color;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.content-container {
+  background-color: $primary-100-color;
+  border-radius: 1rem;
+  min-height: 16rem;
+  min-width: 16rem;
+  padding: 2rem;
+  width: fit-content;
+}
