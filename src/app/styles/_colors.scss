@@ -1,0 +1,125 @@
+
+@use '@angular/material' as mat;
+
+$theme: mat.define-theme();
+
+$primary-error-color: mat.get-theme-color($theme, primary, error);
+
+$primary-color: mat.get-theme-color($theme, primary, 50);
+$secondary-color: mat.get-theme-color($theme, secondary, 50);
+$tertiary-color: mat.get-theme-color($theme, tertiary, 50);
+$neutral-color: mat.get-theme-color($theme, neutral, 50);
+$neutral-variant-color: mat.get-theme-color($theme, neutral-variant, 50);
+$error-color: mat.get-theme-color($theme, error, 50);
+
+$primary-0-color: mat.get-theme-color($theme, primary, 0);
+$secondary-0-color: mat.get-theme-color($theme, secondary, 0);
+$tertiary-0-color: mat.get-theme-color($theme, tertiary, 0);
+$neutral-0-color: mat.get-theme-color($theme, neutral, 0);
+$neutral-variant-0-color: mat.get-theme-color($theme, neutral-variant, 0);
+$error-0-color: mat.get-theme-color($theme, error, 0);
+
+$primary-10-color: mat.get-theme-color($theme, primary, 10);
+$secondary-10-color: mat.get-theme-color($theme, secondary, 10);
+$tertiary-10-color: mat.get-theme-color($theme, tertiary, 10);
+$neutral-10-color: mat.get-theme-color($theme, neutral, 10);
+$neutral-variant-10-color: mat.get-theme-color($theme, neutral-variant, 10);
+$error-10-color: mat.get-theme-color($theme, error, 10);
+
+$primary-20-color: mat.get-theme-color($theme, primary, 20);
+$secondary-20-color: mat.get-theme-color($theme, secondary, 20);
+$tertiary-20-color: mat.get-theme-color($theme, tertiary, 20);
+$neutral-20-color: mat.get-theme-color($theme, neutral, 20);
+$neutral-variant-20-color: mat.get-theme-color($theme, neutral-variant, 20);
+$error-20-color: mat.get-theme-color($theme, error, 20);
+
+$primary-25-color: mat.get-theme-color($theme, primary, 25);
+$secondary-25-color: mat.get-theme-color($theme, secondary, 25);
+$tertiary-25-color: mat.get-theme-color($theme, tertiary, 25);
+$neutral-25-color: mat.get-theme-color($theme, neutral, 25);
+$neutral-variant-25-color: mat.get-theme-color($theme, neutral-variant, 25);
+$error-25-color: mat.get-theme-color($theme, error, 25);
+
+$primary-30-color: mat.get-theme-color($theme, primary, 30);
+$secondary-30-color: mat.get-theme-color($theme, secondary, 30);
+$tertiary-30-color: mat.get-theme-color($theme, tertiary, 30);
+$neutral-30-color: mat.get-theme-color($theme, neutral, 30);
+$neutral-variant-30-color: mat.get-theme-color($theme, neutral-variant, 30);
+$error-30-color: mat.get-theme-color($theme, error, 30);
+
+$primary-35-color: mat.get-theme-color($theme, primary, 35);
+$secondary-35-color: mat.get-theme-color($theme, secondary, 35);
+$tertiary-35-color: mat.get-theme-color($theme, tertiary, 35);
+$neutral-35-color: mat.get-theme-color($theme, neutral, 35);
+$neutral-variant-35-color: mat.get-theme-color($theme, neutral-variant, 35);
+$error-35-color: mat.get-theme-color($theme, error, 35);
+
+$primary-40-color: mat.get-theme-color($theme, primary, 40);
+$secondary-40-color: mat.get-theme-color($theme, secondary, 40);
+$tertiary-40-color: mat.get-theme-color($theme, tertiary, 40);
+$neutral-40-color: mat.get-theme-color($theme, neutral, 40);
+$neutral-variant-40-color: mat.get-theme-color($theme, neutral-variant, 40);
+$error-40-color: mat.get-theme-color($theme, error, 40);
+
+$primary-50-color: mat.get-theme-color($theme, primary, 50);
+$secondary-50-color: mat.get-theme-color($theme, secondary, 50);
+$tertiary-50-color: mat.get-theme-color($theme, tertiary, 50);
+$neutral-50-color: mat.get-theme-color($theme, neutral, 50);
+$neutral-variant-50-color: mat.get-theme-color($theme, neutral-variant, 50);
+$error-50-color: mat.get-theme-color($theme, error, 50);
+
+$primary-60-color: mat.get-theme-color($theme, primary, 60);
+$secondary-60-color: mat.get-theme-color($theme, secondary, 60);
+$tertiary-60-color: mat.get-theme-color($theme, tertiary, 60);
+$neutral-60-color: mat.get-theme-color($theme, neutral, 60);
+$neutral-variant-60-color: mat.get-theme-color($theme, neutral-variant, 60);
+$error-60-color: mat.get-theme-color($theme, error, 60);
+
+$primary-70-color: mat.get-theme-color($theme, primary, 70);
+$secondary-70-color: mat.get-theme-color($theme, secondary, 70);
+$tertiary-70-color: mat.get-theme-color($theme, tertiary, 70);
+$neutral-70-color: mat.get-theme-color($theme, neutral, 70);
+$neutral-variant-70-color: mat.get-theme-color($theme, neutral-variant, 70);
+$error-70-color: mat.get-theme-color($theme, error, 70);
+
+$primary-80-color: mat.get-theme-color($theme, primary, 80);
+$secondary-80-color: mat.get-theme-color($theme, secondary, 80);
+$tertiary-80-color: mat.get-theme-color($theme, tertiary, 80);
+$neutral-80-color: mat.get-theme-color($theme, neutral, 80);
+$neutral-variant-80-color: mat.get-theme-color($theme, neutral-variant, 80);
+$error-80-color: mat.get-theme-color($theme, error, 80);
+
+$primary-90-color: mat.get-theme-color($theme, primary, 90);
+$secondary-90-color: mat.get-theme-color($theme, secondary, 90);
+$tertiary-90-color: mat.get-theme-color($theme, tertiary, 90);
+$neutral-90-color: mat.get-theme-color($theme, neutral, 90);
+$neutral-variant-90-color: mat.get-theme-color($theme, neutral-variant, 90);
+$error-90-color: mat.get-theme-color($theme, error, 90);
+
+$primary-95-color: mat.get-theme-color($theme, primary, 95);
+$secondary-95-color: mat.get-theme-color($theme, secondary, 95);
+$tertiary-95-color: mat.get-theme-color($theme, tertiary, 95);
+$neutral-95-color: mat.get-theme-color($theme, neutral, 95);
+$neutral-variant-95-color: mat.get-theme-color($theme, neutral-variant, 95);
+$error-95-color: mat.get-theme-color($theme, error, 95);
+
+$primary-98-color: mat.get-theme-color($theme, primary, 98);
+$secondary-98-color: mat.get-theme-color($theme, secondary, 98);
+$tertiary-98-color: mat.get-theme-color($theme, tertiary, 98);
+$neutral-98-color: mat.get-theme-color($theme, neutral, 98);
+$neutral-variant-98-color: mat.get-theme-color($theme, neutral-variant, 98);
+$error-98-color: mat.get-theme-color($theme, error, 98);
+
+$primary-99-color: mat.get-theme-color($theme, primary, 99);
+$secondary-99-color: mat.get-theme-color($theme, secondary, 99);
+$tertiary-99-color: mat.get-theme-color($theme, tertiary, 99);
+$neutral-99-color: mat.get-theme-color($theme, neutral, 99);
+$neutral-variant-99-color: mat.get-theme-color($theme, neutral-variant, 99);
+$error-99-color: mat.get-theme-color($theme, error, 99);
+
+$primary-100-color: mat.get-theme-color($theme, primary, 100);
+$secondary-100-color: mat.get-theme-color($theme, secondary, 100);
+$tertiary-100-color: mat.get-theme-color($theme, tertiary, 100);
+$neutral-100-color: mat.get-theme-color($theme, neutral, 100);
+$neutral-variant-100-color: mat.get-theme-color($theme, neutral-variant, 100);
+$error-100-color: mat.get-theme-color($theme, error, 100);
